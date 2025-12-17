@@ -15000,4 +15000,10 @@ Location:
   animation-timing-function: cubic-bezier(0.59, 0.59, 1, 1);
 }
 
+#song-player {
+  position: fixed; bottom: 20px; right: 20px; z-index: 9999;
+  width: 300px; height: 80px; opacity: 0;
+}
+.play-btn i { transition: all 0.3s ease; }
+
 /* ============= OTHERS AREA ENDS =============== *//*# sourceMappingURL=main.css.map */

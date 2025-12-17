@@ -45,11 +45,7 @@ $(".close-btn, .bg-overlay").click(function(){
 //========== PAGE PROGRESS STARTS ============= // 
 
 //========== VIDEO POPUP STARTS ============= //
-   if ($(".popup-youtube").length > 0) {
-    $(".popup-youtube").magnificPopup({
-    type: "iframe",
-    });
-    }
+  
 //========== VIDEO POPUP ENDS ============= //
 AOS.init;
 AOS.init({disable: 'mobile'});
